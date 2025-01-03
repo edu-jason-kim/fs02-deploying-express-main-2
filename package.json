@@ -1,0 +1,26 @@
+{
+  "name": "photo-diary",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "pm2 start src/app.js -i max",
+    "migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.717.0",
+    "@prisma/client": "^5.20.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prisma": "^5.20.0"
+  }
+}

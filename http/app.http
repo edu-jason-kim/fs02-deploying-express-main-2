@@ -1,0 +1,41 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="date"
+
+2024-11-20
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="content"
+
+오늘은 눈 덮인 아름다운 산과 잔잔한 호수가 있는 풍경을 보며 마음이 차분해지는 기분을 느꼈다. 맑은 하늘과 햇빛이 반짝이는 호수가 마치 거울처럼 산을 그대로 비추고 있었다. 이 고요함 속에서 자연의 웅장함과 평온함을 동시에 느낄 수 있었다. 이렇게 그림 같은 풍경을 마주할 때면 일상의 작은 고민들이 사라지고, 마음이 정화되는 듯하다.
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="photo"; filename="1.jpg"
+Content-Type: image/jpg
+
+< ./photos/1.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+POST http://localhost:3000/
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="date"
+
+2024-12-13
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="content"
+
+오늘 아침, 따뜻한 커피와 함께 조용한 시간을 보냈다. 나무 테이블 위에 놓인 커피잔이 햇살에 부드럽게 빛나고, 그 옆에 놓인 토스트 한 조각은 소박하지만 완벽한 아침 식사를 완성시켰다. 커피의 향기가 공간을 채우며 잠시 모든 것이 평온하게 느껴졌다. 이렇게 여유로운 순간을 누리는 것이 얼마나 중요한지 다시 한번 깨닫게 되는 하루였다.
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="photo"; filename="2.jpg"
+Content-Type: image/jpg
+
+< ./photos/2.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
